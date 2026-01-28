@@ -1,0 +1,19 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: BOOK-ISSUE-SERVICE
+
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/FREEPDB1
+    username: lms
+    password: lms
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+logging:
+  level:
+    root: INFO
+  
+  file:
+    name: logs/book-issue-service.log

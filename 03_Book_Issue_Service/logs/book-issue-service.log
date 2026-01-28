@@ -1,0 +1,509 @@
+2026-01-28T13:38:36.001+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:38:36.004+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:38:36.033+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\bornt\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/bornt/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-01-28T13:38:36.034+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T13:38:36.034+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T13:38:36.528+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:38:36.544+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:38:36.890+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:38:36.899+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:38:36.900+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:38:36.925+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 891 ms
+2026-01-28T13:38:37.116+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:38:37.380+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T13:38:37.382+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:38:37.615+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1a8b50ef
+2026-01-28T13:38:37.616+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T13:38:37.707+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:38:37.712+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 1.983 seconds (process running for 2.252)
+2026-01-28T13:41:52.420+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T13:41:52.421+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T13:41:52.423+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-28T13:41:52.549+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : BookIssueRequestDTO(memberCode=M1001, bookCode=B2001)
+2026-01-28T13:41:53.040+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : BookDTO(bookCode=B2001, title=Clean Code, author=Robert C. Martin, issuable=true, issued=true)
+2026-01-28T13:41:53.052+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : MemberDTO(memberCode=M1001, memberName=Vivek Gohil, memberType=STUDENT, active=true)
+2026-01-28T13:48:11.362+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:48:11.365+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:48:11.371+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:48:11.383+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T13:48:11.396+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-28T13:48:11.456+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:48:11.457+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:48:11.539+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:48:11.541+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:48:11.584+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:48:11.585+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:48:11.585+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:48:11.599+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 141 ms
+2026-01-28T13:48:11.622+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:48:11.653+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-28T13:48:11.653+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:48:11.683+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@76bb711c
+2026-01-28T13:48:11.683+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-28T13:48:11.698+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:48:11.699+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.257 seconds (process running for 576.239)
+2026-01-28T13:48:11.701+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:48:13.095+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:48:13.097+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-39] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:48:13.102+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:48:13.103+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-28T13:48:13.113+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-01-28T13:48:13.173+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:48:13.174+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:48:13.238+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:48:13.240+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:48:13.269+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:48:13.270+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:48:13.270+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:48:13.279+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 104 ms
+2026-01-28T13:48:13.298+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:48:13.325+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-01-28T13:48:13.325+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:48:13.360+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@769105de
+2026-01-28T13:48:13.360+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-01-28T13:48:13.371+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:48:13.372+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.209 seconds (process running for 577.911)
+2026-01-28T13:48:13.372+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:50:23.483+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:50:23.484+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-43] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:50:23.489+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:50:23.490+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-01-28T13:50:23.502+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-01-28T13:50:23.530+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:50:23.530+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:50:23.595+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:50:23.596+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:50:23.622+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:50:23.622+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:50:23.622+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:50:23.630+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 99 ms
+2026-01-28T13:50:23.642+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:50:23.666+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-01-28T13:50:23.666+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:50:23.698+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@233ec82f
+2026-01-28T13:50:23.698+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-01-28T13:50:23.708+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:50:23.709+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.188 seconds (process running for 708.249)
+2026-01-28T13:50:23.710+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:51:22.447+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:51:22.448+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-47] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:51:22.456+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:51:22.457+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-01-28T13:51:22.469+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-01-28T13:51:22.507+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:51:22.507+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:51:22.566+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:51:22.568+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:51:22.593+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:51:22.594+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:51:22.594+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:51:22.606+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 98 ms
+2026-01-28T13:51:22.617+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:51:22.640+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-01-28T13:51:22.640+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:51:22.670+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@7c21570d
+2026-01-28T13:51:22.670+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-01-28T13:51:22.678+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:51:22.679+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.182 seconds (process running for 767.22)
+2026-01-28T13:51:22.680+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:52:01.251+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:52:01.252+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-51] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:52:01.257+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:52:01.258+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-01-28T13:52:01.272+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-01-28T13:52:01.308+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:52:01.308+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:52:01.362+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:52:01.363+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:52:01.383+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:52:01.384+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:52:01.384+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:52:01.391+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 83 ms
+2026-01-28T13:52:01.402+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:52:01.423+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-01-28T13:52:01.424+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:52:01.452+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection oracle.jdbc.driver.T4CConnection@3043846d
+2026-01-28T13:52:01.452+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-01-28T13:52:01.461+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:52:01.462+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.163 seconds (process running for 806.002)
+2026-01-28T13:52:01.463+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:52:04.873+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:52:04.874+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-55] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:52:04.879+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:52:04.880+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-01-28T13:52:04.890+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-01-28T13:52:04.924+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:52:04.925+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:52:04.982+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:52:04.984+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:52:05.008+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:52:05.010+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:52:05.010+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:52:05.017+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 91 ms
+2026-01-28T13:52:05.032+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:52:05.057+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-01-28T13:52:05.057+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:52:05.088+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection oracle.jdbc.driver.T4CConnection@6de207ef
+2026-01-28T13:52:05.088+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-01-28T13:52:05.096+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:52:05.098+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.182 seconds (process running for 809.638)
+2026-01-28T13:52:05.098+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:52:06.500+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:52:06.501+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-59] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:52:06.509+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:52:06.510+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-01-28T13:52:06.518+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2026-01-28T13:52:06.553+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:52:06.555+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:52:06.596+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:52:06.598+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:52:06.626+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:52:06.626+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:52:06.626+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:52:06.633+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 78 ms
+2026-01-28T13:52:06.647+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:52:06.670+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-01-28T13:52:06.670+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:52:06.708+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection oracle.jdbc.driver.T4CConnection@52461863
+2026-01-28T13:52:06.708+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-01-28T13:52:06.716+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:52:06.717+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.171 seconds (process running for 811.257)
+2026-01-28T13:52:06.718+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:53:33.945+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:53:33.946+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-63] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:53:33.952+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:53:33.953+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2026-01-28T13:53:33.969+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2026-01-28T13:53:34.006+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:53:34.006+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:53:34.070+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:53:34.071+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:53:34.096+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:53:34.096+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:53:34.096+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:53:34.107+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 100 ms
+2026-01-28T13:53:34.119+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:53:34.141+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2026-01-28T13:53:34.142+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:53:34.171+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection oracle.jdbc.driver.T4CConnection@5fc15ac3
+2026-01-28T13:53:34.171+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2026-01-28T13:53:34.179+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:53:34.180+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.182 seconds (process running for 898.72)
+2026-01-28T13:53:34.181+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:55:35.508+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:55:35.511+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-67] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:55:35.516+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:55:35.517+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-67] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2026-01-28T13:55:35.527+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-67] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2026-01-28T13:55:35.562+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:55:35.562+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:55:35.608+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:55:35.609+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:55:35.630+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:55:35.630+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:55:35.630+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:55:35.637+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 73 ms
+2026-01-28T13:55:35.647+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:55:35.666+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2026-01-28T13:55:35.666+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:55:35.697+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection oracle.jdbc.driver.T4CConnection@49dde5ad
+2026-01-28T13:55:35.697+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2026-01-28T13:55:35.707+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:55:35.708+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.153 seconds (process running for 1020.248)
+2026-01-28T13:55:35.709+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:55:43.142+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:55:43.143+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-71] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:55:43.151+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:55:43.152+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2026-01-28T13:55:43.160+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2026-01-28T13:55:43.196+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:55:43.197+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:55:43.246+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:55:43.247+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:55:43.270+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:55:43.271+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:55:43.271+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:55:43.278+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 81 ms
+2026-01-28T13:55:43.287+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:55:43.306+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2026-01-28T13:55:43.306+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:55:43.343+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection oracle.jdbc.driver.T4CConnection@6110cf52
+2026-01-28T13:55:43.343+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2026-01-28T13:55:43.351+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:55:43.352+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.164 seconds (process running for 1027.892)
+2026-01-28T13:55:43.352+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:55:44.772+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:55:44.773+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-75] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:55:44.780+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:55:44.781+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2026-01-28T13:55:44.793+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2026-01-28T13:55:44.829+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:55:44.829+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:55:44.864+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:55:44.866+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:55:44.883+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:55:44.884+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:55:44.884+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:55:44.892+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 61 ms
+2026-01-28T13:55:44.900+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:55:44.916+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2026-01-28T13:55:44.916+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:55:44.941+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection oracle.jdbc.driver.T4CConnection@4f6168e0
+2026-01-28T13:55:44.942+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2026-01-28T13:55:44.948+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:55:44.950+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.13 seconds (process running for 1029.489)
+2026-01-28T13:55:44.950+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:56:01.513+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T13:56:01.513+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T13:56:01.513+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-28T13:56:01.519+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : BookIssueRequestDTO(memberCode=M1001, bookCode=B2001)
+2026-01-28T13:56:01.566+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : BookDTO(bookCode=B2001, title=Clean Code, author=Robert C. Martin, issuable=true, issued=true)
+2026-01-28T13:56:01.576+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : MemberDTO(memberCode=M1001, memberName=Vivek Gohil, memberType=STUDENT, active=true)
+2026-01-28T13:56:01.582+05:30 ERROR 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.kalelogistics.main.domain.BookIssue.getDueDate()" because "bookIssue" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.kalelogistics.main.domain.BookIssue.getDueDate()" because "bookIssue" is null
+	at com.kalelogistics.main.service.BookIssueService.issueBook(BookIssueService.java:57) ~[classes/:na]
+	at com.kalelogistics.main.controller.BookIssueController.issueBook(BookIssueController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-28T13:58:32.517+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-01-28T13:58:32.519+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-79] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:58:32.526+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:58:32.529+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2026-01-28T13:58:32.542+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2026-01-28T13:58:32.580+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:58:32.581+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:58:32.633+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:58:32.634+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:58:32.652+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:58:32.652+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:58:32.652+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:58:32.660+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 79 ms
+2026-01-28T13:58:32.670+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:58:32.694+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2026-01-28T13:58:32.694+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:58:32.726+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection oracle.jdbc.driver.T4CConnection@7c97dec4
+2026-01-28T13:58:32.726+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2026-01-28T13:58:32.736+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:58:32.736+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.164 seconds (process running for 1197.276)
+2026-01-28T13:58:32.736+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:58:41.192+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:58:41.193+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-115] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:58:41.199+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:58:41.200+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2026-01-28T13:58:41.212+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2026-01-28T13:58:41.248+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:58:41.248+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:58:41.286+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:58:41.288+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:58:41.305+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:58:41.305+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:58:41.305+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:58:41.312+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 63 ms
+2026-01-28T13:58:41.321+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:58:41.336+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2026-01-28T13:58:41.337+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:58:41.376+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection oracle.jdbc.driver.T4CConnection@1187f1d
+2026-01-28T13:58:41.376+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2026-01-28T13:58:41.386+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:58:41.387+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.146 seconds (process running for 1205.926)
+2026-01-28T13:58:41.387+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:58:46.653+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T13:58:46.654+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T13:58:46.655+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-28T13:58:46.657+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : BookIssueRequestDTO(memberCode=M1001, bookCode=B2001)
+2026-01-28T13:58:46.701+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : BookDTO(bookCode=B2001, title=Clean Code, author=Robert C. Martin, issuable=true, issued=true)
+2026-01-28T13:58:46.712+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] c.k.main.service.BookIssueService        : MemberDTO(memberCode=M1001, memberName=Vivek Gohil, memberType=STUDENT, active=true)
+2026-01-28T13:58:46.712+05:30 ERROR 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.kalelogistics.main.domain.BookIssue.getDueDate()" because "bookIssue" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.kalelogistics.main.domain.BookIssue.getDueDate()" because "bookIssue" is null
+	at com.kalelogistics.main.service.BookIssueService.issueBook(BookIssueService.java:57) ~[classes/:na]
+	at com.kalelogistics.main.controller.BookIssueController.issueBook(BookIssueController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-28T13:59:57.173+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:59:57.174+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-119] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:59:57.179+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:59:57.181+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2026-01-28T13:59:57.192+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2026-01-28T13:59:57.228+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:59:57.228+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:59:57.276+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:59:57.278+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:59:57.294+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:59:57.294+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:59:57.294+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:59:57.301+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 72 ms
+2026-01-28T13:59:57.310+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:59:57.327+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2026-01-28T13:59:57.327+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:59:57.362+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection oracle.jdbc.driver.T4CConnection@2bc20780
+2026-01-28T13:59:57.362+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2026-01-28T13:59:57.370+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:59:57.371+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.15 seconds (process running for 1281.91)
+2026-01-28T13:59:57.371+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T13:59:58.770+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T13:59:58.771+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-155] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T13:59:58.776+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T13:59:58.777+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-155] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2026-01-28T13:59:58.790+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [Thread-155] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2026-01-28T13:59:58.826+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 2328 (F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\03_Book_Issue_Service)
+2026-01-28T13:59:58.827+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T13:59:58.857+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T13:59:58.858+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T13:59:58.874+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-01-28T13:59:58.874+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T13:59:58.874+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T13:59:58.881+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-01-28T13:59:58.889+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.k.main.config.WebClientConfig          : WebClient object created!
+2026-01-28T13:59:58.905+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2026-01-28T13:59:58.905+05:30  WARN 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T13:59:58.940+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection oracle.jdbc.driver.T4CConnection@89efe7b
+2026-01-28T13:59:58.940+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2026-01-28T13:59:58.948+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-01-28T13:59:58.949+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.13 seconds (process running for 1283.488)
+2026-01-28T13:59:58.949+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T14:00:07.518+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T14:00:07.519+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T14:00:07.521+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-28T14:00:07.523+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] c.k.main.service.BookIssueService        : BookIssueRequestDTO(memberCode=M1001, bookCode=B2001)
+2026-01-28T14:00:07.585+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] c.k.main.service.BookIssueService        : BookDTO(bookCode=B2001, title=Clean Code, author=Robert C. Martin, issuable=true, issued=true)
+2026-01-28T14:00:07.595+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] c.k.main.service.BookIssueService        : MemberDTO(memberCode=M1001, memberName=Vivek Gohil, memberType=STUDENT, active=true)
+2026-01-28T14:00:07.595+05:30 ERROR 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.kalelogistics.main.domain.BookIssue.getDueDate()" because "bookIssue" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.kalelogistics.main.domain.BookIssue.getDueDate()" because "bookIssue" is null
+	at com.kalelogistics.main.service.BookIssueService.issueBook(BookIssueService.java:57) ~[classes/:na]
+	at com.kalelogistics.main.controller.BookIssueController.issueBook(BookIssueController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-28T14:01:10.172+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-4] c.k.main.service.BookIssueService        : BookIssueRequestDTO(memberCode=M1001, bookCode=B2001)
+2026-01-28T14:01:10.184+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-4] c.k.main.service.BookIssueService        : BookDTO(bookCode=B2001, title=Clean Code, author=Robert C. Martin, issuable=true, issued=false)
+2026-01-28T14:01:10.192+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-4] c.k.main.service.BookIssueService        : MemberDTO(memberCode=M1001, memberName=Vivek Gohil, memberType=STUDENT, active=true)
+2026-01-28T14:01:10.195+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-4] c.k.main.repository.BookIssueRepository  : countIssuedBooks M1001
+2026-01-28T14:01:10.454+05:30  INFO 2328 --- [BOOK-ISSUE-SERVICE] [http-nio-8083-exec-4] c.k.main.repository.BookIssueRepository  : Count = 0
