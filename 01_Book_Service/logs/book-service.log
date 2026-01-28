@@ -557,3 +557,499 @@ com.kalelogistics.main.exception.BookNotFoundException: Book not found :: B20011
 2026-01-28T11:06:23.834+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-1] c.k.main.controller.BookController       : Request received to fetch book B20011
 2026-01-28T11:06:23.845+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.kalelogistics.main.exception.BookNotFoundException: Book not found :: B20011]
 2026-01-28T11:06:47.992+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] c.k.main.controller.BookController       : Request received to fetch book B2001
+2026-01-28T11:15:11.409+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:15:11.411+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-71] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:15:11.417+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:15:11.418+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2026-01-28T11:15:11.429+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2026-01-28T11:15:11.466+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:15:11.466+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:15:11.517+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:15:11.519+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:15:11.533+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:15:11.533+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:15:11.533+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:15:11.538+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 71 ms
+2026-01-28T11:15:11.565+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2026-01-28T11:15:11.565+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:15:11.596+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection oracle.jdbc.driver.T4CConnection@27727fa6
+2026-01-28T11:15:11.596+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2026-01-28T11:15:11.602+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:15:11.603+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.144 seconds (process running for 1150.76)
+2026-01-28T11:15:11.603+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:19:01.434+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:19:01.435+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-75] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:19:01.442+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:19:01.442+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2026-01-28T11:19:01.454+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2026-01-28T11:19:01.489+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:19:01.490+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:19:01.528+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:19:01.529+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:19:01.542+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:19:01.542+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:19:01.543+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:19:01.549+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 59 ms
+2026-01-28T11:19:01.573+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2026-01-28T11:19:01.573+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:19:01.603+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection oracle.jdbc.driver.T4CConnection@77a913b7
+2026-01-28T11:19:01.603+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2026-01-28T11:19:01.610+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:19:01.611+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.128 seconds (process running for 1380.768)
+2026-01-28T11:19:01.611+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:19:36.149+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:19:36.150+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-79] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:19:36.157+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:19:36.158+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2026-01-28T11:19:36.168+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2026-01-28T11:19:36.204+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:19:36.204+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:19:36.237+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:19:36.238+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:19:36.252+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:19:36.252+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:19:36.252+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:19:36.267+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 62 ms
+2026-01-28T11:19:36.292+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2026-01-28T11:19:36.292+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:19:36.319+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Added connection oracle.jdbc.driver.T4CConnection@2f497f2f
+2026-01-28T11:19:36.319+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2026-01-28T11:19:36.326+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:19:36.327+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.131 seconds (process running for 1415.484)
+2026-01-28T11:19:36.328+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:19:54.834+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:19:54.835+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-83] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:19:54.840+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:19:54.841+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-83] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2026-01-28T11:19:54.851+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-83] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2026-01-28T11:19:54.887+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:19:54.887+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:19:54.928+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:19:54.929+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:19:54.951+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:19:54.952+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:19:54.952+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:19:54.958+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 71 ms
+2026-01-28T11:19:54.981+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2026-01-28T11:19:54.981+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:19:55.008+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection oracle.jdbc.driver.T4CConnection@6bc3c4e9
+2026-01-28T11:19:55.008+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2026-01-28T11:19:55.015+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:19:55.016+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.135 seconds (process running for 1434.172)
+2026-01-28T11:19:55.016+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:20:32.565+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2026-01-28T11:20:32.567+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-87] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:20:32.569+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:20:32.571+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2026-01-28T11:20:32.580+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+2026-01-28T11:20:32.613+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:20:32.613+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:20:32.662+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:20:32.663+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:20:32.676+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:20:32.676+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:20:32.676+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:20:32.681+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 67 ms
+2026-01-28T11:20:32.703+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2026-01-28T11:20:32.703+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:20:32.747+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-23 - Added connection oracle.jdbc.driver.T4CConnection@7aeba228
+2026-01-28T11:20:32.747+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2026-01-28T11:20:32.754+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:20:32.755+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.148 seconds (process running for 1471.911)
+2026-01-28T11:20:32.755+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:21:04.304+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-01-28T11:21:04.305+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-91] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:21:04.309+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:21:04.309+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-91] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2026-01-28T11:21:04.327+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-91] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+2026-01-28T11:21:04.361+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:21:04.361+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:21:04.403+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:21:04.404+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:21:04.418+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:21:04.418+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:21:04.418+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:21:04.424+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 62 ms
+2026-01-28T11:21:04.448+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2026-01-28T11:21:04.448+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:21:04.477+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Added connection oracle.jdbc.driver.T4CConnection@61875b34
+2026-01-28T11:21:04.477+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2026-01-28T11:21:04.483+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:21:04.484+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.129 seconds (process running for 1503.641)
+2026-01-28T11:21:04.484+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:21:26.989+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (1 addition, 1 deletion, 4 modifications)
+2026-01-28T11:21:26.991+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-95] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:21:26.998+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:21:26.998+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-95] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2026-01-28T11:21:27.008+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-95] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+2026-01-28T11:21:27.042+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:21:27.042+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:21:27.110+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:21:27.112+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:21:27.125+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:21:27.125+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:21:27.125+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:21:27.131+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 89 ms
+2026-01-28T11:21:27.154+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2026-01-28T11:21:27.154+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:21:27.183+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Added connection oracle.jdbc.driver.T4CConnection@e9b5828
+2026-01-28T11:21:27.183+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2026-01-28T11:21:27.190+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:21:27.191+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.154 seconds (process running for 1526.348)
+2026-01-28T11:21:27.191+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:21:36.028+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:21:36.029+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-99] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:21:36.032+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:21:36.033+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2026-01-28T11:21:36.043+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2026-01-28T11:21:36.077+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:21:36.077+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:21:36.119+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:21:36.120+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:21:36.132+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:21:36.132+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:21:36.132+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:21:36.137+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 58 ms
+2026-01-28T11:21:36.162+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2026-01-28T11:21:36.162+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:21:36.199+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Added connection oracle.jdbc.driver.T4CConnection@56d7140
+2026-01-28T11:21:36.199+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2026-01-28T11:21:36.206+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:21:36.206+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.136 seconds (process running for 1535.363)
+2026-01-28T11:21:36.207+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:21:56.722+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-01-28T11:21:56.724+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-103] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:21:56.731+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:21:56.731+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-103] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
+2026-01-28T11:21:56.745+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-103] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
+2026-01-28T11:21:56.779+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:21:56.779+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:21:56.819+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:21:56.820+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:21:56.833+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:21:56.833+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:21:56.833+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:21:56.849+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 69 ms
+2026-01-28T11:21:56.871+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2026-01-28T11:21:56.871+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:21:56.897+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-27 - Added connection oracle.jdbc.driver.T4CConnection@3d014d99
+2026-01-28T11:21:56.897+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Start completed.
+2026-01-28T11:21:56.903+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:21:56.904+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.133 seconds (process running for 1556.061)
+2026-01-28T11:21:56.905+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:22:17.405+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-01-28T11:22:17.406+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-107] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:22:17.409+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:22:17.411+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-107] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
+2026-01-28T11:22:17.425+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-107] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
+2026-01-28T11:22:17.459+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:22:17.459+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:22:17.511+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:22:17.513+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:22:17.527+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:22:17.528+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:22:17.528+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:22:17.534+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 73 ms
+2026-01-28T11:22:17.559+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
+2026-01-28T11:22:17.559+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:22:17.597+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-28 - Added connection oracle.jdbc.driver.T4CConnection@39bbed15
+2026-01-28T11:22:17.597+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
+2026-01-28T11:22:17.604+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:22:17.605+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.151 seconds (process running for 1576.761)
+2026-01-28T11:22:17.605+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:22:40.120+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:22:40.121+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-111] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:22:40.124+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:22:40.126+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
+2026-01-28T11:22:40.138+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-111] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
+2026-01-28T11:22:40.173+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:22:40.173+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:22:40.215+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:22:40.217+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:22:40.232+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:22:40.233+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:22:40.233+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:22:40.249+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 76 ms
+2026-01-28T11:22:40.273+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
+2026-01-28T11:22:40.273+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:22:40.301+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-29 - Added connection oracle.jdbc.driver.T4CConnection@10f24ca
+2026-01-28T11:22:40.301+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
+2026-01-28T11:22:40.309+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:22:40.310+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.144 seconds (process running for 1599.466)
+2026-01-28T11:22:40.310+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:24:11.171+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-01-28T11:24:11.173+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-115] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:24:11.177+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:24:11.179+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown initiated...
+2026-01-28T11:24:11.193+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-115] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown completed.
+2026-01-28T11:24:11.228+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:24:11.228+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:24:11.261+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:24:11.263+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:24:11.274+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:24:11.275+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:24:11.275+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:24:11.280+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 52 ms
+2026-01-28T11:24:11.301+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Starting...
+2026-01-28T11:24:11.301+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:24:11.342+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-30 - Added connection oracle.jdbc.driver.T4CConnection@311cfed2
+2026-01-28T11:24:11.343+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Start completed.
+2026-01-28T11:24:11.350+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:24:11.351+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.13 seconds (process running for 1690.507)
+2026-01-28T11:24:11.351+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:24:21.820+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-01-28T11:24:21.822+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-119] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:24:21.826+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:24:21.827+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown initiated...
+2026-01-28T11:24:21.839+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-119] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown completed.
+2026-01-28T11:24:21.877+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:24:21.877+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:24:21.934+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:24:21.936+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:24:21.949+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:24:21.949+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:24:21.949+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:24:21.955+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 77 ms
+2026-01-28T11:24:21.976+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Starting...
+2026-01-28T11:24:21.976+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:24:22.003+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-31 - Added connection oracle.jdbc.driver.T4CConnection@1e459e25
+2026-01-28T11:24:22.003+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Start completed.
+2026-01-28T11:24:22.009+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:24:22.010+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.143 seconds (process running for 1701.167)
+2026-01-28T11:24:22.010+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:24:34.462+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:24:34.462+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-123] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:24:34.466+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:24:34.467+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown initiated...
+2026-01-28T11:24:34.476+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-123] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown completed.
+2026-01-28T11:24:34.512+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:24:34.512+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:24:34.543+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:24:34.544+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:24:34.557+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:24:34.557+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:24:34.557+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:24:34.562+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-01-28T11:24:34.587+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Starting...
+2026-01-28T11:24:34.587+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:24:34.611+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-32 - Added connection oracle.jdbc.driver.T4CConnection@6e0b1473
+2026-01-28T11:24:34.611+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Start completed.
+2026-01-28T11:24:34.618+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:24:34.620+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.114 seconds (process running for 1713.776)
+2026-01-28T11:24:34.620+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:27:11.172+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:27:11.172+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-127] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:27:11.177+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:27:11.177+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-127] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown initiated...
+2026-01-28T11:27:11.186+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-127] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown completed.
+2026-01-28T11:27:11.224+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:27:11.224+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:27:11.262+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:27:11.263+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:27:11.276+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:27:11.276+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:27:11.276+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:27:11.282+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 57 ms
+2026-01-28T11:27:11.303+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Starting...
+2026-01-28T11:27:11.303+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:27:11.330+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-33 - Added connection oracle.jdbc.driver.T4CConnection@4d4e40df
+2026-01-28T11:27:11.330+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Start completed.
+2026-01-28T11:27:11.336+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:27:11.336+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.119 seconds (process running for 1870.494)
+2026-01-28T11:27:11.337+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:27:19.169+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:27:19.170+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-131] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:27:19.175+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:27:19.175+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-131] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown initiated...
+2026-01-28T11:27:19.184+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-131] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown completed.
+2026-01-28T11:27:19.222+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:27:19.222+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:27:19.274+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:27:19.277+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:27:19.288+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:27:19.288+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:27:19.288+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:27:19.303+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 80 ms
+2026-01-28T11:27:19.324+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Starting...
+2026-01-28T11:27:19.324+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:27:19.352+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-34 - Added connection oracle.jdbc.driver.T4CConnection@550c913e
+2026-01-28T11:27:19.352+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Start completed.
+2026-01-28T11:27:19.358+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:27:19.359+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.144 seconds (process running for 1878.516)
+2026-01-28T11:27:19.359+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:27:54.412+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T11:27:54.413+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T11:27:54.415+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-28T11:28:30.420+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:28:30.420+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-135] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:28:30.426+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:28:30.427+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-135] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown initiated...
+2026-01-28T11:28:30.436+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-135] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown completed.
+2026-01-28T11:28:30.469+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:28:30.469+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:28:30.504+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:28:30.505+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:28:30.516+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:28:30.517+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:28:30.517+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:28:30.522+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 51 ms
+2026-01-28T11:28:30.543+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Starting...
+2026-01-28T11:28:30.543+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:28:30.584+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-35 - Added connection oracle.jdbc.driver.T4CConnection@62663044
+2026-01-28T11:28:30.584+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Start completed.
+2026-01-28T11:28:30.592+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:28:30.592+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.128 seconds (process running for 1949.749)
+2026-01-28T11:28:30.593+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:28:37.090+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T11:28:37.091+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T11:28:37.091+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-28T11:28:37.093+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] c.k.main.controller.BookController       : Request received to issue book B2001 
+2026-01-28T11:28:37.115+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] c.k.main.service.BookService             : Book B2001 issued successfully
+2026-01-28T11:28:46.805+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] c.k.main.controller.BookController       : Request received to issue book B2001 
+2026-01-28T11:28:46.807+05:30 ERROR 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.kalelogistics.main.exception.BookAlreadyIssuedException: Book is already issued: B2001] with root cause
+
+com.kalelogistics.main.exception.BookAlreadyIssuedException: Book is already issued: B2001
+	at com.kalelogistics.main.service.BookService.issueBook(BookService.java:34) ~[classes/:na]
+	at com.kalelogistics.main.controller.BookController.issueBook(BookController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-28T11:30:46.916+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:30:46.918+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-139] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:30:46.922+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:30:46.923+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-139] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown initiated...
+2026-01-28T11:30:46.936+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-139] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown completed.
+2026-01-28T11:30:46.974+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:30:46.974+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:30:47.018+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:30:47.019+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:30:47.031+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:30:47.031+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:30:47.031+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:30:47.037+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 62 ms
+2026-01-28T11:30:47.058+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Starting...
+2026-01-28T11:30:47.058+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:30:47.124+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-36 - Added connection oracle.jdbc.driver.T4CConnection@3fa8825e
+2026-01-28T11:30:47.124+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Start completed.
+2026-01-28T11:30:47.131+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:30:47.131+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.163 seconds (process running for 2086.288)
+2026-01-28T11:30:47.131+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:31:01.615+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:31:01.615+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-143] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:31:01.620+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:31:01.620+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-143] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown initiated...
+2026-01-28T11:31:01.630+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-143] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown completed.
+2026-01-28T11:31:01.664+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:31:01.665+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:31:01.703+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:31:01.704+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:31:01.716+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:31:01.716+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:31:01.716+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:31:01.723+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 58 ms
+2026-01-28T11:31:01.744+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Starting...
+2026-01-28T11:31:01.744+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:31:01.769+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-37 - Added connection oracle.jdbc.driver.T4CConnection@1dc06d6b
+2026-01-28T11:31:01.769+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Start completed.
+2026-01-28T11:31:01.776+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:31:01.777+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.119 seconds (process running for 2100.933)
+2026-01-28T11:31:01.777+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:31:03.178+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:31:03.179+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-147] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:31:03.185+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:31:03.185+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-147] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Shutdown initiated...
+2026-01-28T11:31:03.195+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-147] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Shutdown completed.
+2026-01-28T11:31:03.232+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:31:03.232+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:31:03.257+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:31:03.258+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:31:03.271+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:31:03.271+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:31:03.271+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:31:03.276+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 42 ms
+2026-01-28T11:31:03.296+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Starting...
+2026-01-28T11:31:03.296+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:31:03.320+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-38 - Added connection oracle.jdbc.driver.T4CConnection@7c855bd7
+2026-01-28T11:31:03.320+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Start completed.
+2026-01-28T11:31:03.326+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:31:03.327+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.1 seconds (process running for 2102.483)
+2026-01-28T11:31:03.327+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:31:13.729+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T11:31:13.729+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T11:31:13.731+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-28T11:31:13.733+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] c.k.main.controller.BookController       : Request received to issue book B2001 
+2026-01-28T11:31:13.797+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : public org.springframework.http.ResponseEntity<org.springframework.http.ProblemDetail> com.kalelogistics.main.exception.GlobalExceptionHandler.handleBookAlreadyIssuedException(com.kalelogistics.main.exception.BookAlreadyIssuedException) returned ResponseEntity: <404 NOT_FOUND Not Found,ProblemDetail[type='null', title='Book Already Issued', status=400, detail='Book is already issued: B2001', instance='/books/B2001/issue', properties='{errorCode=BOOK_ALREADY_ISSUED, timestamp=2026-01-28T06:01:13.777590500Z}'],[]>, but its status doesn't match the ProblemDetail status: 400
+2026-01-28T11:31:13.799+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.kalelogistics.main.exception.BookAlreadyIssuedException: Book is already issued: B2001]
+2026-01-28T11:31:39.122+05:30  INFO 23836 --- [BOOK-SERVICE] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28T11:31:39.123+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-151] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T11:31:39.131+05:30  INFO 23836 --- [BOOK-SERVICE] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T11:31:39.132+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-151] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Shutdown initiated...
+2026-01-28T11:31:39.144+05:30  INFO 23836 --- [BOOK-SERVICE] [Thread-151] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Shutdown completed.
+2026-01-28T11:31:39.208+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Starting Application using Java 21.0.8 with PID 23836 (F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service\target\classes started by bornt in F:\Training\Kale Logistics\Spring Boot Microservices\01_Book_Service)
+2026-01-28T11:31:39.209+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T11:31:39.291+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-01-28T11:31:39.294+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2026-01-28T11:31:39.318+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-01-28T11:31:39.319+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T11:31:39.319+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T11:31:39.332+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 123 ms
+2026-01-28T11:31:39.376+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Starting...
+2026-01-28T11:31:39.376+05:30  WARN 23836 --- [BOOK-SERVICE] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-01-28T11:31:39.401+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-39 - Added connection oracle.jdbc.driver.T4CConnection@739886d8
+2026-01-28T11:31:39.401+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Start completed.
+2026-01-28T11:31:39.415+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-01-28T11:31:39.418+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] com.kalelogistics.main.Application       : Started Application in 0.22 seconds (process running for 2138.574)
+2026-01-28T11:31:39.418+05:30  INFO 23836 --- [BOOK-SERVICE] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-28T11:31:40.715+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T11:31:40.715+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T11:31:40.715+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-28T11:31:40.716+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] c.k.main.controller.BookController       : Request received to issue book B2001 
+2026-01-28T11:31:40.725+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : public org.springframework.http.ResponseEntity<org.springframework.http.ProblemDetail> com.kalelogistics.main.exception.GlobalExceptionHandler.handleBookAlreadyIssuedException(com.kalelogistics.main.exception.BookAlreadyIssuedException) returned ResponseEntity: <404 NOT_FOUND Not Found,ProblemDetail[type='null', title='Book Already Issued', status=409, detail='Book is already issued: B2001', instance='/books/B2001/issue', properties='{errorCode=BOOK_ALREADY_ISSUED, timestamp=2026-01-28T06:01:40.725049900Z}'],[]>, but its status doesn't match the ProblemDetail status: 409
+2026-01-28T11:31:40.730+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.kalelogistics.main.exception.BookAlreadyIssuedException: Book is already issued: B2001]
+2026-01-28T11:31:42.290+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] c.k.main.controller.BookController       : Request received to issue book B2001 
+2026-01-28T11:31:42.293+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : public org.springframework.http.ResponseEntity<org.springframework.http.ProblemDetail> com.kalelogistics.main.exception.GlobalExceptionHandler.handleBookAlreadyIssuedException(com.kalelogistics.main.exception.BookAlreadyIssuedException) returned ResponseEntity: <404 NOT_FOUND Not Found,ProblemDetail[type='null', title='Book Already Issued', status=409, detail='Book is already issued: B2001', instance='/books/B2001/issue', properties='{errorCode=BOOK_ALREADY_ISSUED, timestamp=2026-01-28T06:01:42.293275Z}'],[]>, but its status doesn't match the ProblemDetail status: 409
+2026-01-28T11:31:42.293+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.kalelogistics.main.exception.BookAlreadyIssuedException: Book is already issued: B2001]
+2026-01-28T11:33:09.663+05:30  INFO 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-6] c.k.main.controller.BookController       : Request received to issue book B2002 
+2026-01-28T11:33:09.667+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : public org.springframework.http.ResponseEntity<org.springframework.http.ProblemDetail> com.kalelogistics.main.exception.GlobalExceptionHandler.handleBookNotIssuableException(com.kalelogistics.main.exception.BookNotIssuableException) returned ResponseEntity: <404 NOT_FOUND Not Found,ProblemDetail[type='null', title='Book Not Issuable', status=400, detail='Book is not issuable: B2002', instance='/books/B2002/issue', properties='{errorCode=BOOK_NOT_ISSUABLE, timestamp=2026-01-28T06:03:09.667601200Z}'],[]>, but its status doesn't match the ProblemDetail status: 400
+2026-01-28T11:33:09.668+05:30  WARN 23836 --- [BOOK-SERVICE] [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.kalelogistics.main.exception.BookNotIssuableException: Book is not issuable: B2002]

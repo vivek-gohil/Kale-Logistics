@@ -24,4 +24,26 @@ public class GlobalExceptionHandler {
 
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(problemDetail);
 	}
+
+	@ExceptionHandler(BookNotIssuableException.class)
+	public ResponseEntity<ProblemDetail> handleBookNotIssuableException(BookNotIssuableException e) {
+		ProblemDetail problemDetail = ProblemDetail.forStatus(HttpStatus.BAD_REQUEST);
+		problemDetail.setTitle("Book Not Issuable");
+		problemDetail.setDetail(e.getMessage());
+		problemDetail.setProperty("errorCode", "BOOK_NOT_ISSUABLE");
+		problemDetail.setProperty("timestamp", Instant.now());
+
+		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(problemDetail);
+	}
+
+	@ExceptionHandler(BookAlreadyIssuedException.class)
+	public ResponseEntity<ProblemDetail> handleBookAlreadyIssuedException(BookAlreadyIssuedException e) {
+		ProblemDetail problemDetail = ProblemDetail.forStatus(HttpStatus.CONFLICT);
+		problemDetail.setTitle("Book Already Issued");
+		problemDetail.setDetail(e.getMessage());
+		problemDetail.setProperty("errorCode", "BOOK_ALREADY_ISSUED");
+		problemDetail.setProperty("timestamp", Instant.now());
+
+		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(problemDetail);
+	}
 }
