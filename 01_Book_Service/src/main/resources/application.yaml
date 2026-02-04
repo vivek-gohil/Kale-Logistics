@@ -1,0 +1,38 @@
+#spring.application.name=01_Book_Service
+#spring.datasource.url=jdbc:oracle:thin:@localhost:1521/FREEPDB1
+#spring.datasource.username=springtraining
+#spring.datasource.password=springtraining
+#spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+#logging.level.root=INFO
+#logging.file.name=logs/employee-crud.log
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: "book"
+
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/FREEPDB1
+    username: lms
+    password: lms
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  config:
+    import: "configserver:http://localhost:8071"
+
+logging:
+  level:
+    root: INFO
+  
+  file:
+    name: logs/book-service.log
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
