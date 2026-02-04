@@ -3,13 +3,25 @@ server:
 
 spring:
   application:
-    name: BOOK-ISSUE-SERVICE
+    name: "issues"
 
   datasource:
     url: jdbc:oracle:thin:@localhost:1521/FREEPDB1
     username: lms
     password: lms
     driver-class-name: oracle.jdbc.driver.OracleDriver
+  config:
+    import: "configserver:http://localhost:8071"
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 logging:
   level:
@@ -17,3 +29,20 @@ logging:
   
   file:
     name: logs/book-issue-service.log
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 2
+      failureRateThreshold: 50
+      waitDurationInOpenState: 10000

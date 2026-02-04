@@ -1,7 +1,9 @@
 package com.kalelogistics.main.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.kalelogistics.main.dto.BookIssueRequestDTO;
 import com.kalelogistics.main.dto.BookIssueResponseDTO;
+import com.kalelogistics.main.dto.IssueContactDetails;
 import com.kalelogistics.main.service.BookIssueService;
 
 import lombok.AllArgsConstructor;
@@ -21,8 +24,17 @@ import lombok.extern.slf4j.Slf4j;
 public class BookIssueController {
 	private final BookIssueService bookIssueService;
 
+	@Autowired
+	private final IssueContactDetails issueContactDetails;
+
 	@PostMapping
 	public ResponseEntity<BookIssueResponseDTO> issueBook(@RequestBody BookIssueRequestDTO bookIssueRequestDTO) {
 		return ResponseEntity.status(HttpStatus.OK).body(bookIssueService.issueBook(bookIssueRequestDTO));
+	}
+
+	@GetMapping("contact-info")
+	public ResponseEntity<IssueContactDetails> getContactInfo() {
+		log.info("Request received for getContactInfo");
+		return ResponseEntity.status(HttpStatus.OK).body(issueContactDetails);
 	}
 }
