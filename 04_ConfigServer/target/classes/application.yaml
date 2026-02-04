@@ -1,0 +1,35 @@
+server:
+  port: 8071
+
+spring:
+  application:
+    name: "configserver"
+
+  profiles:
+#    active: native - only for class path and file system
+    active: git
+  cloud:
+    config:
+      server:
+#        native:
+#          search-locations: "classpath:/config"
+#           search-locations: "file:///F://Learnings//Spring_Boot_Microservices//Resilience Example//config"
+        git:
+          uri: https://github.com/vivek-gohil/lms-config-repo
+          default-label: main
+          timeout: 5
+          clone-on-start: true # copy github repo on startup of application
+          force-pull: true 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    root: INFO
+  
+  file:
+    name: logs/config-server.log

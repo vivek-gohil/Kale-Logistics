@@ -1,0 +1,11 @@
+2026-02-04T00:03:15.106+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-02-04T00:03:15.109+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAYSERVER with eureka with status DOWN
+2026-02-04T00:03:15.109+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1770143595109, current=DOWN, previous=UP]
+2026-02-04T00:03:15.109+05:30  INFO 2204 --- [gatewayserver] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAYSERVER/Vivek.mshome.net:gatewayserver:8072: registering service...
+2026-02-04T00:03:15.111+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] o.s.boot.reactor.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-04T00:03:15.120+05:30  INFO 2204 --- [gatewayserver] [netty-shutdown] o.s.boot.reactor.netty.GracefulShutdown  : Graceful shutdown complete
+2026-02-04T00:03:15.131+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-02-04T00:03:15.141+05:30  INFO 2204 --- [gatewayserver] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAYSERVER/Vivek.mshome.net:gatewayserver:8072 - registration status: 204
+2026-02-04T00:03:15.142+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-02-04T00:03:15.144+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAYSERVER/Vivek.mshome.net:gatewayserver:8072 - deregister  status: 200
+2026-02-04T00:03:15.144+05:30  INFO 2204 --- [gatewayserver] [RMI TCP Connection(76)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
