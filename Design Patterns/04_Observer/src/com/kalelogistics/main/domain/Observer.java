@@ -1,0 +1,5 @@
+package com.kalelogistics.main.domain;
+
+public interface Observer {
+	void update(String message);
+}
